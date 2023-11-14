@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight:bolder;
+          
+        }
+        .form-grup{
+            margin-bottom: 5px;
+            margin-top: 5px;
+            
+        }
+        
+
+        .form-container{
+            
+            border: 2px solid red;
+            border-radius: 15px;
+            padding: 20px;
+            width: 350px;
+            margin: 100px auto;
+            text-align:left;
+            background-color: aqua;
+        }
+    
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            text-align:left;
+        }
+        .topnav {
+            overflow: hidden;
+           text-align: right;
+           margin-bottom: 25px;
+         }
+         input{
+            text-align: center;
+            
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>
+            Cari Visitas Akademika
+        </h2>
+        <div class="topnav">
+            
+            <input type="text" placeholder="Search..">
+          </div>
+
+        <form method="post" action="">
+            <div class="form-grup">
+                <label for="nl">Nama Lengkap:</label>
+                <input type="text" id="nl">
+            </div>
+
+            <form method="post" action="">
+                <div class="form-grup">
+                    <label for="ap">Asal Prodi:</label>
+                    <input type="text" id="ap">
+                </div>
+
+                <form method="post" action="">
+                    <div class="form-grup">
+                        <label for="Status">Status:</label>
+                        <input type="text" id="Status">
+                    </div>
+            
+                    <p>Jenis Kendaraan:</p>
+                    <input type="radio" id="CW" name="crust">
+                    <label for="CW">Motor</label>
+                    
+                    <input type="radio" id="MG" name="crust">
+                    <label for="MG">Mobil</label>
+            
+            
+                <form method="post" action="">
+                     <div class="form-grup">
+                         <label for="almat">No Pol:</label>
+                         <input type="text" id="almat">
+                    </div>  
+                    
+                    
+                    <form method="post" action="">
+                        <div class="form-grup">
+                            <label for="merk">Merk:</label>
+                            <input type="text" id="merk">
+                       </div>                
+                
+                       <form method="post" action="">
+                        <div class="form-grup">
+                            <label for="Up">Upload STNK:</label>
+                            <input type="text" id="Up"> 
+                            <input type="submit" value="Browse">
+                            
+                       </div>        
+                       <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
